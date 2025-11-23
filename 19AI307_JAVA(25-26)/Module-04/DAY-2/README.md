@@ -36,7 +36,7 @@ To simulate a radar control system where only one tower instance handles multipl
 Program to implement a SOLID Principles in Java Program
 Developed by: Preethi J
 RegisterNumber:  212223220080
-*/
+
 ```
 
 ## SOURCE CODE:
@@ -86,4 +86,5 @@ public class prog {
 
 ## RESULT:
 The program ensures only one Radar Control Tower instance handles all flight communications and correctly displays the total number of registered flights.
+
 
