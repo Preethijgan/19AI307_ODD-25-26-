@@ -33,6 +33,11 @@ Program to implement variables and Operators using Java
 Developed by: Preethi J
 RegisterNumber: 212223220080
 
+```
+## SOURCE CODE
+
+```
+
 
 import java.util.*;
 public class prog{
@@ -51,4 +56,5 @@ public class prog{
 
 ## RESULT:
 Thus, the java program to get name from the user (String) and print it is executed successfully.
+
 
