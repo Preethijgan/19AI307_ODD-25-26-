@@ -20,11 +20,11 @@ To write a Java program that demonstrates the use of looping statements such as 
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a Looping Statement using Java
 Developed by: Preethi J
 RegisterNumber: 212223220080
-*/
+
 ```
 
 ## SOURCE CODE:
@@ -58,4 +58,5 @@ public class Factorial {
 
 ## RESULT:
 Thus, the program using looping statements in Java was successfully executed and the desired output was obtained.
+
 
