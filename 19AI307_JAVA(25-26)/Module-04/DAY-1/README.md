@@ -1,4 +1,4 @@
-# Ex.No:4(D) DESIGN PATTERN -- ABSTRACT FACTORY
+# Ex.No:4(A) DESIGN PATTERN -- ABSTRACT FACTORY
 
 ## QUESTION:
 Create a program that sends different types of notifications: "email", "sms", and "push". Use the Factory Pattern to generate the appropriate notification sender and call its notifyUser() method.
@@ -28,12 +28,10 @@ RegisterNumber: 212223220080
 ```
 import java.util.Scanner;
 
-// Notification interface
 interface Notification {
     void notifyUser();
 }
 
-// Concrete notifications
 class EmailNotification implements Notification {
     public void notifyUser() {
         System.out.println("Sending Email Notification");
@@ -52,7 +50,6 @@ class PushNotification implements Notification {
     }
 }
 
-// Factory class
 class NotificationFactory {
     public Notification createNotification(String type) {
         switch(type.toLowerCase()) {
@@ -64,7 +61,6 @@ class NotificationFactory {
     }
 }
 
-// Main class
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -93,6 +89,7 @@ public class Main {
 
 ## RESULT:
 The program successfully creates and sends the appropriate type of notification using the Factory Pattern.
+
 
 
 
