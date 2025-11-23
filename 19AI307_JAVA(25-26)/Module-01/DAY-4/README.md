@@ -22,11 +22,9 @@ To write a Java program to reverse the elements of an array and display the reve
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Array concept using Java
 Developed by: Preethi J
 RegisterNumber: 212223220080
-*/
 ```
 
 ## SOURCE CODE:
@@ -65,4 +63,5 @@ public class ReverseArray {
 
 ## RESULT:
 Thus, the Java program to reverse the elements of an array was executed successfully and the expected output was obtained.
+
 
